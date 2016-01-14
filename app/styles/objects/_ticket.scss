@@ -1,0 +1,24 @@
+.ticket {
+    width: 100%;
+
+    td {
+        width: 14%;
+        text-align: center;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #D4D0C2;
+
+        &.row-number {
+            border: none;
+        }
+
+        &.powerball {
+            border-color: #F3B0AB;
+        }
+
+        &.spacer {
+            border: none;
+        }
+    }
+
+}
