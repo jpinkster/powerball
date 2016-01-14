@@ -295,12 +295,6 @@ module.exports = function (grunt) {
         'htmlmin'
       ]
     },
-    karma: {
-      unit: {
-        configFile: 'karma.conf.js',
-        singleRun: true
-      }
-    },
     cdnify: {
       dist: {
         html: ['<%= yeoman.dist %>/*.html']
@@ -346,7 +340,6 @@ module.exports = function (grunt) {
     'concurrent:test',
     'autoprefixer',
     'connect:test',
-    'karma'
   ]);
 
   grunt.registerTask('build', [

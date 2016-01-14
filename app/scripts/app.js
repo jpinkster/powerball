@@ -1,6 +1,5 @@
 'use strict';
 var app = angular.module('PowerballApp', [
-    'ngSanitize',
     'underscore',
     'ui.router'
 ])
